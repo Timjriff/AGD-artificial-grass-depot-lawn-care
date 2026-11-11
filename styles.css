@@ -1,8 +1,8 @@
 :root {
-  --forest: #123b2a;
-  --forest-deep: #09291c;
-  --green: #2f8f4e;
-  --lime: #b7d86b;
+  --forest: #0d4a27;
+  --forest-deep: #07351c;
+  --green: #257a35;
+  --lime: #79b92f;
   --cream: #f5f3e9;
   --paper: #fffefa;
   --ink: #153026;
@@ -29,7 +29,7 @@ button, input, select, textarea { font: inherit; }
 .site-header.scrolled { height: 70px; background: rgba(255,254,250,.94); backdrop-filter: blur(18px); box-shadow: 0 6px 30px rgba(10,40,27,.08); }
 .header-inner { display: flex; align-items: center; justify-content: space-between; }
 .brand { flex: none; display: inline-flex; align-items: center; }
-.brand img { width: 274px; height: auto; }
+.brand img { width: auto; height: 76px; object-fit: contain; }
 .site-nav { display: flex; align-items: center; gap: 30px; font-size: .93rem; font-weight: 600; }
 .site-nav > a:not(.button) { position: relative; }
 .site-nav > a:not(.button)::after { content: ""; position: absolute; inset: auto 0 -7px; height: 2px; transform: scaleX(0); background: var(--green); transition: transform .2s ease; }
@@ -144,7 +144,8 @@ h3 { letter-spacing: -.025em; }
 
 .site-footer { padding-top: 66px; color: white; background: #071e15; }
 .footer-main { display: grid; grid-template-columns: 1.4fr .6fr .8fr; gap: 70px; padding-bottom: 54px; }
-.brand-footer img { filter: brightness(0) invert(1); }
+.brand-footer { width: fit-content; padding: 10px 14px; background: white; border-radius: 14px; }
+.brand-footer img { width: auto; height: 104px; }
 .footer-main > div:first-child p { max-width: 390px; color: rgba(255,255,255,.58); }
 .footer-main h3 { margin-bottom: 17px; color: var(--lime); font-size: .78rem; text-transform: uppercase; letter-spacing: .12em; }
 .footer-main div:not(:first-child) a { display: block; margin: 9px 0; color: rgba(255,255,255,.72); }
@@ -184,7 +185,8 @@ h3 { letter-spacing: -.025em; }
 @media (max-width: 680px) {
   .container { width: min(calc(100% - 28px), var(--container)); }
   .site-header { height: 70px; }
-  .brand img { width: 218px; }
+  .brand img { width: auto; height: 58px; }
+  .brand-footer img { height: 96px; }
   .site-nav { left: 0; }
   .hero { min-height: auto; padding: 120px 0 68px; }
   .hero::before { display: none; }

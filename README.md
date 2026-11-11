@@ -29,7 +29,8 @@ npx serve .
 - `index.html` — page structure and content
 - `styles.css` — responsive styling and motion
 - `script.js` — mobile navigation, scroll effects, and estimate-email preparation
-- `logo.svg` and `favicon.svg` — lightweight brand artwork
+- `agd-logo.png` — official AGD brand logo with a transparent background
+- `favicon.svg` — lightweight browser icon
 - `vercel.json` — deployment-friendly response headers
 
 The estimate form opens the visitor's default email app with their information prefilled. The site does not collect or store form submissions.
