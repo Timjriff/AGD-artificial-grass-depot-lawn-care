@@ -28,7 +28,8 @@ button, input, select, textarea { font: inherit; }
 .site-header { position: fixed; z-index: 100; inset: 0 0 auto; height: 84px; display: flex; align-items: center; transition: .25s ease; }
 .site-header.scrolled { height: 70px; background: rgba(255,254,250,.94); backdrop-filter: blur(18px); box-shadow: 0 6px 30px rgba(10,40,27,.08); }
 .header-inner { display: flex; align-items: center; justify-content: space-between; }
-.brand img { width: 210px; height: auto; }
+.brand { flex: none; display: inline-flex; align-items: center; }
+.brand img { width: 274px; height: auto; }
 .site-nav { display: flex; align-items: center; gap: 30px; font-size: .93rem; font-weight: 600; }
 .site-nav > a:not(.button) { position: relative; }
 .site-nav > a:not(.button)::after { content: ""; position: absolute; inset: auto 0 -7px; height: 2px; transform: scaleX(0); background: var(--green); transition: transform .2s ease; }
@@ -183,7 +184,7 @@ h3 { letter-spacing: -.025em; }
 @media (max-width: 680px) {
   .container { width: min(calc(100% - 28px), var(--container)); }
   .site-header { height: 70px; }
-  .brand img { width: 174px; }
+  .brand img { width: 218px; }
   .site-nav { left: 0; }
   .hero { min-height: auto; padding: 120px 0 68px; }
   .hero::before { display: none; }

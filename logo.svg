@@ -1,10 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 82" role="img" aria-labelledby="title desc">
-  <title id="title">AGD Artificial Grass Depot</title>
-  <desc id="desc">AGD initials with a green leaf and the words Artificial Grass Depot Lawn Care Service.</desc>
-  <path d="M15 65C17 35 34 14 70 8c-4 33-19 54-55 57Z" fill="#2f8f4e"/>
-  <path d="M25 58c13-18 28-29 45-40" fill="none" stroke="#b7d86b" stroke-width="4" stroke-linecap="round"/>
-  <text x="72" y="47" fill="#123b2a" font-family="Arial, Helvetica, sans-serif" font-size="47" font-weight="800" letter-spacing="-3">AGD</text>
-  <text x="172" y="26" fill="#2f8f4e" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="1.4">ARTIFICIAL GRASS DEPOT</text>
-  <text x="172" y="48" fill="#65736d" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="600" letter-spacing="2.4">LAWN CARE SERVICE</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 96" role="img" aria-labelledby="logo-title logo-desc">
+  <title id="logo-title">AGD Artificial Grass Depot</title>
+  <desc id="logo-desc">A green leaf beside AGD with Artificial Grass Depot Lawn Care Service.</desc>
+
+  <g aria-hidden="true">
+    <path d="M8 76C11 40 31 15 72 6c-2 18-8 33-18 44C44 62 29 71 8 76Z" fill="#2f8f4e"/>
+    <path d="M18 68C32 48 49 31 68 17" fill="none" stroke="#b7d86b" stroke-width="5" stroke-linecap="round"/>
+    <path d="M34 48c-1-9 0-17 3-25M49 34c5 0 10 1 15 3" fill="none" stroke="#b7d86b" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+
+  <text x="81" y="64" fill="#123b2a" font-family="Arial, Helvetica, sans-serif" font-size="65" font-weight="800" letter-spacing="-4">AGD</text>
+  <rect x="206" y="17" width="4" height="58" rx="2" fill="#b7d86b"/>
+  <text x="224" y="38" textLength="198" lengthAdjust="spacingAndGlyphs" fill="#123b2a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">ARTIFICIAL GRASS DEPOT</text>
+  <text x="224" y="62" textLength="194" lengthAdjust="spacingAndGlyphs" fill="#2f8f4e" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">LAWN CARE SERVICE</text>
 </svg>
 
