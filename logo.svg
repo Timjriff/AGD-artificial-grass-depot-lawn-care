@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 82" role="img" aria-labelledby="title desc">
+  <title id="title">AGD Artificial Grass Depot</title>
+  <desc id="desc">AGD initials with a green leaf and the words Artificial Grass Depot Lawn Care Service.</desc>
+  <path d="M15 65C17 35 34 14 70 8c-4 33-19 54-55 57Z" fill="#2f8f4e"/>
+  <path d="M25 58c13-18 28-29 45-40" fill="none" stroke="#b7d86b" stroke-width="4" stroke-linecap="round"/>
+  <text x="72" y="47" fill="#123b2a" font-family="Arial, Helvetica, sans-serif" font-size="47" font-weight="800" letter-spacing="-3">AGD</text>
+  <text x="172" y="26" fill="#2f8f4e" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="1.4">ARTIFICIAL GRASS DEPOT</text>
+  <text x="172" y="48" fill="#65736d" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="600" letter-spacing="2.4">LAWN CARE SERVICE</text>
+</svg>
+
