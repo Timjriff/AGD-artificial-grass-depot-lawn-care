@@ -30,6 +30,8 @@ npx serve .
 - `styles.css` — responsive styling and motion
 - `script.js` — mobile navigation, scroll effects, and estimate-email preparation
 - `agd-logo.png` — official AGD brand logo with a transparent background
+- `hero-video/` — optimized, muted hero video split into browser-loaded parts
+- `hero-poster.jpg` — still-image fallback shown while the video loads
 - `favicon.svg` — lightweight browser icon
 - `vercel.json` — deployment-friendly response headers
 

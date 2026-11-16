@@ -2,6 +2,32 @@ const header = document.querySelector("[data-header]");
 const navToggle = document.querySelector("[data-nav-toggle]");
 const nav = document.querySelector("[data-nav]");
 const form = document.querySelector("[data-estimate-form]");
+const heroVideo = document.querySelector("[data-hero-video]");
+const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+if (prefersReducedMotion) {
+  heroVideo?.pause();
+} else if (heroVideo) {
+  const heroVideoParts = Array.from(
+    { length: 20 },
+    (_, index) => `hero-video/part-${String(index).padStart(2, "0")}.bin`
+  );
+
+  Promise.all(
+    heroVideoParts.map(async (part) => {
+      const response = await fetch(part);
+      if (!response.ok) throw new Error(`Unable to load ${part}`);
+      return response.arrayBuffer();
+    })
+  )
+    .then((parts) => {
+      heroVideo.src = URL.createObjectURL(new Blob(parts, { type: "video/mp4" }));
+      return heroVideo.play();
+    })
+    .catch(() => {
+      heroVideo.removeAttribute("src");
+    });
+}
 
 const updateHeader = () => header?.classList.toggle("scrolled", window.scrollY > 24);
 updateHeader();
