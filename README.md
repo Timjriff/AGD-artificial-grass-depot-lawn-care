@@ -32,6 +32,7 @@ npx serve .
 - `agd-logo.png` — official AGD brand logo with a transparent background
 - `hero-video/` — optimized, muted hero video split into browser-loaded parts
 - `hero-poster.jpg` — still-image fallback shown while the video loads
+- `project-before.jpg` and `project-after.jpg` — real AGD transformation photos
 - `favicon.svg` — lightweight browser icon
 - `vercel.json` — deployment-friendly response headers
 
